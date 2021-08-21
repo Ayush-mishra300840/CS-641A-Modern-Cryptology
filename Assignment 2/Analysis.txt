@@ -1,0 +1,8 @@
+Key Observations to conclude that this was a  Play Fair cipher.
+
+1. THE HINT: At the onset of the chamber(for level 2) after giving the command "go" and paying respect to The spirit of Cave Man, he utters "You have been blessed, my child. Keep in mind that you must always believe in yourself and PLAY FAIR".
+So the use of "PLAY FAIR" gave us the hint that this might be the famous Play-fair cipher crypto system.
+
+2. THE CODE: And to work with the Play-fair cipher we required a key, then we focused on the sequence made up of characters  '. ' ,  '  '  and '-'. We figured out that these correspond to something called "Morse Code". We figured out mapping and came to know that it is written "SECURITY". So we came to the conclusion that this must the required key of the Play-fair cryptosystem that we were speculating. 
+
+3. An aspect of Play-fair ciphers that separates it from simple substitution ciphers is the fact that it will never contain double-letter digrams, like "LL". If there are no double letter digrams in the cipher-text and the length of the message is long enough to make this statistically significant, it is very likely that the method of encryption is Play-fair. Since given cipher was in accordance with this fact too. We concluded that this has to be a Play-fair cipher cryptosystem.

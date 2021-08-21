@@ -1,0 +1,19 @@
+#Pseudo_Code
+
+Construct a 5x5 matrix for Play-Fair cipher as per the algorithm rule : Start with inserting the letters of the key in the matrix in the row in continuous manner then inserted remaining characters except for J and  insert it in the same index where letter I is in the matrix.
+matrix:-
+		S    E    C    U    R
+		I/J  T    Y    A    B
+		D    F    G    H    K
+		L    M    N    O    P
+		Q    V    W    X    Z
+after constructing the matrix we make pair in cipher text then decrypt using the Playfair decryption algorithm given below
+step1: Take a pair
+step2: Check the corresponding index on the matrix given above
+step3: Check whether both elements (i.e elements of pair) is in the same 		row, column, forming box (forming box mean both are neither in the 		   same row nor in the same column)
+step4: If pair in the same row:
+step5: Then replace that character with the previous character in the 		   same row (if no previous element then wrap around)
+step6: If pair in the same column:
+step7: Then replace that character from an above character in the same 		   column (if the character itself is on top then wrap around)
+step8: If pair forming box then 
+step9: Let's take the first character's index (i, j) and the second 		   character's index (m, n) then the first character replaced by the 	    character at (i, n), and the second character replace by the 			   character at (m, j)

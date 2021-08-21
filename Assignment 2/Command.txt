@@ -1,0 +1,1 @@
+To reach Cipher Text we can do: "read" or "go->back->read" or "go->go->read"

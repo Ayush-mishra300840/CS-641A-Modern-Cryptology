@@ -1,0 +1,29 @@
+Decryption algorithm -
+
+We used Play-fair cipher Decryption Technique to decrypt the Cipher-text. In this Decryption Technique, we decrypted a pair of alphabets (digrams) instead of a single alphabet. Our Decryption Technique mainly consists of 4 steps:
+
+Step 1. Finding the Key: We figured out that the given string  "... . -.-. ..- .-. .. - -.--" is a Morse code, then by using standard notations we converted the Morse code into the key as-
+[...]=S [.]=E [-.-.]=Q [..-]=U [.-.]=I [..]=R [-]=T [-.--]=Y.
+Hence "... . -.-. ..- .-. .. - -.--"= "SECURITY".
+
+Step 2. Construction of 5×5 Grid:  A 5×5 grid of alphabets with key "SECURITY" was constructed by filling in the letters of the keyword (minus duplicates) from left to right and from top to bottom, and then filling in the remainder of the matrix with the remaining letters in alphabetic order.
+                     [  [S,E,C,U,R],
+                       [I/J,T,Y,A,B],
+                       [D,F,G,H,K],
+                       [L,M,N,O,P],
+                       [Q,V,W,X,Z]  ]
+
+Step 3. Decrypt the Digrams: First, all the whitespaces together with punctuations were removed .followed by splitting the cipher-text into pairs of two letters (digrams). Now we applied standard rules given below to decrypt the cipher-
+	A. If both the letters are in the same column: Take the letter above each one (going back to the bottom if at the top).
+	B. If both the letters are in the same row: Take the letter to the left of each one (going back to the rightmost if at the leftmost position).
+	C. If neither of the above rules is true: Form a rectangle with the two letters and take the letters on the horizontal opposite corner of the rectangle.
+
+Obtained Plain text after 3 steps:
+	
+BE WARY OF THE NEXT CHAMBER, THERE IS VERY LITTLE IOY THERE. SPEAK OUT X THE PASSWORD "OPEN_SESAME" TO GO THROUGH. MAY X YOU HAVE THE STRENGTH FOR THE NEXT CHAMBER. TO FIND THE EXIT YOU FIRST WILXL NEXED TO UTTER MAGIC WORDS THERE.
+
+Step 4: Then we removed 'X' between the repeating letters as during the encryption, repeating plaintext letters that are in the same pair must have been separated with a filler letter('X'). Also, we noticed that word "IOY" doesn't make sense, so we replaced "I" with "J" to get "JOY" as in PLAY FAIR ciphers, the letters 'I' and 'J' count as one letter and selection is choice dependent.
+
+So final Plain text obtained is:
+
+BE WARY OF THE NEXT CHAMBER, THERE IS VERY LITTLE JOY THERE. SPEAK OUT THE PASSWORD "OPEN_SESAME" TO GO THROUGH. MAY YOU HAVE THE STRENGTH FOR THE NEXT CHAMBER. TO FIND THE EXIT YOU FIRST WILL NEED TO UTTER MAGIC WORDS THERE.

@@ -1,0 +1,1 @@
+commands to get the password for opening the hidden door :go->enter->pick->climb->give.Then to reach ciphertext back->back->thrnxxtzy ->read
