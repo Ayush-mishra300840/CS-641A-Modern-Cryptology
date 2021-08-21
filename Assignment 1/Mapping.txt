@@ -1,0 +1,34 @@
+Cipher text space:   [a-z]-\{c,l,q,z\}U\{0,3,8\}U\{ ,!,.\}U\{P,A,S,N,M\}
+
+"wsam ie pjo ysgtm eyipbya .P axg niphay y, mey syw ahgm ewhrg tw hmysyam wh meyiepjo ys .Ag jygtmeyk pmys ie pjo ysavw kkoyjgsy whmy sy amwh rmephmewagh y!Me yigu ynay utg mew ajya apr ywap awjfkya no a mwmnmw ghiwfeyswhve wieuwr wm aepby oyyhae wtmy uox8 fkpiya.Me y fpaavgs uwa mxSrN03u wd dvwmegnmmey dngmya. Mew awameyt"
+
+Plain text space:[A-Z]-\{J,K,X,Z\}U\{4,6,9\}U\{ ,!,.\}
+"IRST CH AMB EROFT HECAVES .A SYO UCANSE E, THE REI SNOT HINGO FI NTEREST IN THECHAMB ER .SO MEOFTHEL ATER CH AMB ERSWI LLBEMORE INTE RE STIN GTHANTHISON E!TH ECOD EUSE DFO THI SMES SAG EISA SIMPLES UB S TITUTI ONCIPHERINWH ICHDIG IT SHAVE BEENSH IFTE DBY4 PLACES. TH E PASSWOR DIS TYRGU69D IQ QWITHOUTTHE QUOTES. THI SISTHEF"
+
+Let D be the mapping of ciphertext character to plaintext character then, the mapping is as follows:
+
+D["y"]="E"
+D["m"]="T"
+D["e"]="H"
+D["a"]="S"
+D["w"]="I"
+D["h"]="N"
+D["s"]="R"
+D["r"]="G"
+D["p"]="A"
+D["g"]="O"
+D["j"]="M"
+D["t"]="F"
+D["i"]="C"
+D["b"]="V"
+D["o"]="B"
+D["k"]="L"
+D["v"]="W"
+D["f"]="P"
+D["n"]="U"
+D["x"]="Y"
+D["u"]="D"
+D["d"]="Q"
+D["8"]="4"
+D["0"]="6"
+D["3"]="9"
